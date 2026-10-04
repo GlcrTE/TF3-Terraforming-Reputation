@@ -1,0 +1,77 @@
+{
+    "cosmetic": false,
+    "dependencies": null,
+    "incompatibilities": null,
+    "modId": "glcrte_terraforming_reputation_1",
+    "options": null,
+    "params": [
+        {
+            "defaultIndex": 0,
+            "key": "glcrte_tfr_factor",
+            "name": "Landscaping reputation loss reduction",
+            "tooltip": "Divides the town reputation loss from landscaping (terrain brush, terrain alignment of constructions, tunnels) by this factor. In the base game, 2 million cubic metres of moved earth cost a town 100% reputation; at 100x it takes 200 million, at 2000x 4 billion. Other reputation losses (trees, rocks, demolished buildings) stay unchanged.",
+            "uiType": "ComboBox",
+            "values": [
+                "100x less",
+                "150x less",
+                "200x less",
+                "300x less",
+                "400x less",
+                "500x less",
+                "750x less",
+                "1000x less",
+                "1500x less",
+                "2000x less"
+            ],
+            "yearFrom": 0,
+            "yearTo": 0
+        },
+        {
+            "defaultIndex": 0,
+            "key": "glcrte_tfr_cost",
+            "name": "Terraforming cost reduction",
+            "tooltip": "Divides the cost of raising and lowering terrain (per cubic metre) by this factor. Off keeps the base game's prices. Applied when a game is loaded, so after changing it, save and load the game.",
+            "uiType": "ComboBox",
+            "values": [
+                "Off",
+                "2x less",
+                "3x less",
+                "5x less",
+                "7x less",
+                "10x less",
+                "15x less",
+                "20x less",
+                "30x less",
+                "50x less",
+                "100x less"
+            ],
+            "yearFrom": 0,
+            "yearTo": 0
+        },
+        {
+            "defaultIndex": 0,
+            "key": "glcrte_tfr_debug",
+            "name": "Debug mode",
+            "tooltip": "When on, clicking a town (its name sign or one of its buildings) resets that town's reputation to full. A penalty for currently interrupted main connections stays.",
+            "uiType": "ComboBox",
+            "values": [
+                "Off",
+                "On"
+            ],
+            "yearFrom": 0,
+            "yearTo": 0
+        }
+    ],
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": "glcrte_terraforming_reputation_1::/terraforming_reputation/mod.script@preRunFn"
+    },
+    "revision": 3,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "None",
+    "severityRemove": "None"
+}

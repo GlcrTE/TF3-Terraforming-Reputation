@@ -1,0 +1,8 @@
+{
+    "archives": null,
+    "files": [
+        "terraforming_reputation/mod.script.tl",
+        "terraforming_reputation/terraforming_reputation.gs.lua",
+        "terraforming_reputation/terraforming_reputation.script.tl"
+    ]
+}

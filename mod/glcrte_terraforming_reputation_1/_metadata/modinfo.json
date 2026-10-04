@@ -1,0 +1,15 @@
+{
+    "authors": [
+        {
+            "name": "GlcrTE",
+            "role": "CREATOR"
+        }
+    ],
+    "description": "In the base game, landscaping near a town costs reputation fast: 2 million cubic metres of moved earth cost a town 100% of its reputation. This mod divides the reputation loss from landscaping by a factor you choose in the mod options, in 10 steps: 100x, 150x, 200x, 300x, 400x, 500x, 750x, 1000x, 1500x or 2000x less (default 100x). Landscaping covers the terrain brush (raise, lower, smooth), the terrain alignment of constructions and tunnels. The reputation preview while building shows the reduced value. Other reputation losses (removed trees and rocks, demolished buildings, interrupted connections) stay as in the base game. Optionally, terraforming also costs less money: the mod option \"Terraforming cost reduction\" divides the price of raising and lowering terrain by 2x, 3x, 5x, 7x, 10x, 15x, 20x, 30x, 50x or 100x (default Off, base game prices; applied when a game is loaded). Debug mode (mod option): when on, clicking a town (its name sign or one of its buildings) resets its reputation to full. The mod can be added to running savegames; reputation already lost stays lost and recovers as usual.",
+    "name": "Terraforming Costs and Reputation Customization",
+    "summary": "Landscaping costs towns 100x to 2000x less reputation, and optionally 2x to 100x less money.",
+    "tags": [
+        "Script Mod"
+    ],
+    "url": "https://github.com/GlcrTE/TF3-Terraforming-Reputation"
+}
